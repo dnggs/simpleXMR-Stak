@@ -1,4 +1,3 @@
-site=faucetwayang.ga
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt install -y libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
