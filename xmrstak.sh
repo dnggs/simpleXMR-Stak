@@ -9,4 +9,4 @@ make install
 wget $site/run.sh
 echo "screen -d -r" >> /root/.bashrc
 screen
-cd ~/xmr-stak/build/bin && ./xmr-stak
+cd ~/xmr-stak/build/bin && ./xmr-stak 
