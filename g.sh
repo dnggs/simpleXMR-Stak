@@ -1,0 +1,1 @@
+cd ~/xmr-stak/build/bin && ./xmr-stak 
