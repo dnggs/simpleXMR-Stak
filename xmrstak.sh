@@ -1,3 +1,4 @@
+site=https://raw.githubusercontent.com/dnggs/vps/master/xmrstak.sh
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt install -y libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
@@ -6,7 +7,7 @@ mkdir xmr-stak/build
 cd xmr-stak/build
 cmake -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF ..
 make install
-wget $site/run.sh
+wget $site/g.sh
 echo "screen -d -r" >> /root/.bashrc
 screen
 
