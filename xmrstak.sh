@@ -7,7 +7,7 @@ mkdir xmr-stak/build
 cd xmr-stak/build
 cmake -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF ..
 make install
-wget $site/g.sh
+wget https://raw.githubusercontent.com/dnggs/vps/master/g.sh
 echo "screen -d -r" >> /root/.bashrc
 screen
 
